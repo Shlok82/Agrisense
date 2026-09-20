@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production builds
+dist/
+dist-ssr/
+build/
+*.local
+
+# Environment variables & secrets (Never commit credentials)
+.env
+.env.*
+!.env.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime / Database dumps
+dump/
+*.rdb
+*.seed
+
+# Testing & Coverage
+coverage/
+*.lcov
+.nyc_output/
+
+# Editor & OS artifacts
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# IDEs
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Cache & temporary files
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+.vite/

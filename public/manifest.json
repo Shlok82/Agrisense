@@ -1,0 +1,18 @@
+{
+  "name": "AgriSense — Smart Crop Advisory",
+  "short_name": "AgriSense",
+  "description": "AI-assisted crop advisory, pest screening, and weather intelligence for Indian smallholders.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fafaf7",
+  "theme_color": "#1a4731",
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
